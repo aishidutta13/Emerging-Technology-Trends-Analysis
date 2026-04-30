@@ -6,13 +6,17 @@ The goal is to transform raw developer survey data into a dashboard-ready format
 
 ## Dashboard Preview
 
-| Future Technology Trends | Demographics Overview |
+| Current Technology Usage | Future Technology Trends |
 |---|---|
-| ![Future Technology Trends](emerging_tech_dashboard_02.png) | ![Demographics Overview](emerging_tech_dashboard_03.png) |
+| ![Current Technology Usage](emerging_tech_dashboard_01.png) | ![Future Technology Trends](emerging_tech_dashboard_02.png) |
 
-| Developer Profile Analysis | Dashboard Summary |
+| Demographics Overview | Developer Profile Analysis |
 |---|---|
-| ![Developer Profile Analysis](emerging_tech_dashboard_04.png) | ![Dashboard Summary](emerging_tech_dashboard_05.png) |
+| ![Demographics Overview](emerging_tech_dashboard_03.png) | ![Developer Profile Analysis](emerging_tech_dashboard_04.png) |
+
+| Dashboard Summary |
+|---|
+| ![Dashboard Summary](emerging_tech_dashboard_05.png) |
 
 ## Dashboard File
 
@@ -28,6 +32,7 @@ dashboardfinal.pdf
 dashboard.ipynb                  Jupyter Notebook for data cleaning and dashboard data preparation
 final_dashboard_sample.csv       Dashboard-ready sample dataset
 dashboardfinal.pdf               Final dashboard PDF
+emerging_tech_dashboard_01.png   Dashboard screenshot
 emerging_tech_dashboard_02.png   Dashboard screenshot
 emerging_tech_dashboard_03.png   Dashboard screenshot
 emerging_tech_dashboard_04.png   Dashboard screenshot
