@@ -2,31 +2,37 @@
 
 This project analyzes global developer survey data to identify current technology usage, future technology demand, and developer demographic patterns.
 
-The goal is to transform raw survey data into a dashboard-ready format and use it to understand which programming languages, databases, platforms, and frameworks are currently popular and which technologies developers want to work with in the future.
+The goal is to transform raw developer survey data into a dashboard-ready format and use it to understand which programming languages, databases, platforms, and frameworks are currently popular, and which technologies developers want to work with in the future.
 
-## Project Overview
+## Dashboard Preview
 
-Developer survey datasets often contain multi-value fields such as programming languages, databases, platforms, and frameworks. This project cleans and restructures that data so it can be analyzed more effectively.
+| Future Technology Trends | Demographics Overview |
+|---|---|
+| ![Future Technology Trends](emerging_tech_dashboard_02.png) | ![Demographics Overview](emerging_tech_dashboard_03.png) |
 
-The project includes data preparation, transformation, dashboard-ready sample data, and a final dashboard PDF.
+| Developer Profile Analysis | Dashboard Summary |
+|---|---|
+| ![Developer Profile Analysis](emerging_tech_dashboard_04.png) | ![Dashboard Summary](emerging_tech_dashboard_05.png) |
 
-## Dashboard
+## Dashboard File
 
-The final dashboard is included as a PDF file in this repository:
+The complete dashboard is also included as a PDF:
 
 ```text
 dashboardfinal.pdf
 ```
 
-Open `dashboardfinal.pdf` to view the complete dashboard.
-
 ## Files in This Repository
 
 ```text
-dashboard.ipynb              Jupyter Notebook for data cleaning and dashboard data preparation
-final_dashboard_sample.csv   Dashboard-ready sample dataset
-dashboardfinal.pdf           Final dashboard visualization
-README.md                    Project documentation
+dashboard.ipynb                  Jupyter Notebook for data cleaning and dashboard data preparation
+final_dashboard_sample.csv       Dashboard-ready sample dataset
+dashboardfinal.pdf               Final dashboard PDF
+emerging_tech_dashboard_02.png   Dashboard screenshot
+emerging_tech_dashboard_03.png   Dashboard screenshot
+emerging_tech_dashboard_04.png   Dashboard screenshot
+emerging_tech_dashboard_05.png   Dashboard screenshot
+README.md                        Project documentation
 ```
 
 ## Objectives
@@ -36,7 +42,7 @@ README.md                    Project documentation
 - Understand developer demographics such as age, country, and education.
 - Clean and transform multi-value survey fields.
 - Convert raw survey data into a structured dashboard-ready format.
-- Present insights through an IBM Cognos-style dashboard.
+- Present insights through a visual dashboard.
 
 ## Dataset
 
@@ -55,8 +61,6 @@ A sample dashboard-ready dataset is included:
 ```text
 final_dashboard_sample.csv
 ```
-
-The full dataset can be regenerated using the notebook.
 
 ## Tools and Technologies
 
@@ -81,12 +85,12 @@ The full dataset can be regenerated using the notebook.
 - Split multi-value fields into individual rows.
 - Converted wide-format survey responses into long-format data.
 - Created structured fields for technology category, usage type, and demographic information.
-- Combined worked-with technologies, desired technologies, and demographic fields into dashboard-ready data.
+- Combined worked-with technologies, desired technologies, and demographics into dashboard-ready data.
 
 ### Dashboard Preparation
 
 - Created a final sample dataset for dashboard building.
-- Prepared fields for technology usage analysis.
+- Prepared fields for current technology usage analysis.
 - Prepared fields for future trend analysis.
 - Prepared demographic fields for comparison and segmentation.
 
@@ -94,12 +98,7 @@ The full dataset can be regenerated using the notebook.
 
 ### Current Technology Usage
 
-Shows technologies developers currently work with, including:
-
-- Programming languages
-- Databases
-- Platforms
-- Web frameworks
+Analyzes technologies developers currently work with, including programming languages, databases, platforms, and frameworks.
 
 ### Future Technology Trends
 
@@ -107,29 +106,15 @@ Shows technologies developers want to work with in the future, helping identify 
 
 ### Developer Demographics
 
-Shows respondent distribution by:
-
-- Age group
-- Country
-- Education level
+Explores respondent distribution by age group, country, and education level.
 
 ## Key Insights
 
-### Popular Technologies
-
-JavaScript, SQL, and Python are among the most widely used technologies, showing strong relevance across developer roles.
-
-### Cloud Platform Demand
-
-Cloud platforms such as AWS, Azure, and Google Cloud show strong usage and future demand, highlighting the importance of cloud skills.
-
-### Framework Adoption
-
-Modern frameworks such as React and Node.js show strong adoption among developers.
-
-### Developer Demographics
-
-A large share of developers fall within the 25-34 age group, suggesting that the industry is strongly represented by early and mid-career professionals.
+- JavaScript, SQL, and Python are among the most widely used technologies.
+- Cloud platforms such as AWS, Azure, and Google Cloud show strong usage and future demand.
+- Modern frameworks such as React and Node.js show strong developer adoption.
+- A large share of developers fall within the 25-34 age group.
+- Multi-value survey data needs careful restructuring before it can be used for dashboard analysis.
 
 ## How to Use This Project
 
@@ -146,9 +131,7 @@ Open the notebook:
 dashboard.ipynb
 ```
 
-Run the notebook cells to view the data cleaning and transformation process.
-
-Open the dashboard file:
+Open the dashboard PDF:
 
 ```text
 dashboardfinal.pdf
@@ -160,32 +143,19 @@ Use the sample dataset:
 final_dashboard_sample.csv
 ```
 
-## Project Structure
-
-```text
-Emerging-Technology-Trends-Analysis/
-│
-├── dashboard.ipynb
-├── final_dashboard_sample.csv
-├── dashboardfinal.pdf
-└── README.md
-```
-
 ## Current Limitations
 
 - Only a sample dashboard-ready dataset is included due to file size limits.
-- The dashboard is provided as a PDF, not as a live interactive web dashboard.
+- The dashboard is provided as a PDF and images, not as a live interactive web dashboard.
 - Raw survey data may need to be regenerated or downloaded separately.
-- Some multi-value fields require careful transformation before analysis.
 
 ## Future Improvements
 
-- Add dashboard screenshots directly to the README.
+- Add a live interactive dashboard.
 - Add more detailed trend comparisons between current and desired technologies.
 - Include year-over-year analysis if multiple survey years are available.
 - Build an interactive dashboard using Streamlit, Plotly, or Power BI.
 - Add automated data cleaning scripts.
-- Add more detailed documentation for recreating the full dataset.
 
 ## Conclusion
 
